@@ -1,0 +1,35 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="masterpage.master.cs" Inherits="autenticacaonovo.masterpage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="estilo%20css/default.css" rel="stylesheet" />
+</head>
+<body>
+    <form id="form1" runat="server">
+         <header>
+            <div>
+            <nav>
+                <ul>
+                    <li><a href="registo_utilizador.aspx">Registo Utilizador</a></li>
+                    <li><a href="login.aspx">Login</a></li>
+                    <li><a href="alterar.aspx">Alterar Palavra-Passe</a></li>
+                </ul>
+            </nav>
+            </div>
+        </header>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+
+        <footer>
+            <p> CET78 2024 Andrezza Araujo</p>
+        </footer>
+    </form>
+</body>
+</html>
